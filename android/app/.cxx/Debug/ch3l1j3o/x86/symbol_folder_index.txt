@@ -1,0 +1,1 @@
+/Users/smann/AndroidStudioProjects/demo_flutter_app_CAP/build/app/intermediates/cxx/Debug/ch3l1j3o/obj/x86
