@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'home_page.dart';
-import 'search_page.dart';
-import 'settings_page.dart';
+import 'data_page.dart';
+import 'maps_page.dart';
 
 class MainPage extends StatefulWidget {
   const MainPage({super.key});
@@ -14,8 +14,8 @@ class _MainPageState extends State<MainPage> {
 
   final List<Widget> pages = [
     const HomePage(),
-    const SearchPage(),
-    const SettingsPage()
+    const MapsPage(),
+    const DataPage()
   ];
 
   int currentPage = 0;
@@ -37,12 +37,12 @@ class _MainPageState extends State<MainPage> {
           label: 'Home',
         ),
         BottomNavigationBarItem(
-          icon: Icon(Icons.search),
-          label: 'Search',
+          icon: Icon(Icons.map),
+          label: 'Maps',
         ),
         BottomNavigationBarItem(
           icon: Icon(Icons.settings),
-          label: 'Settings',
+          label: 'Data',
         )
       ]));
   }

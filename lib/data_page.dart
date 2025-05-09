@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
 
-class SettingsPage extends StatelessWidget {
-  const SettingsPage({super.key});
+class DataPage extends StatelessWidget {
+  const DataPage({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -11,7 +11,7 @@ class SettingsPage extends StatelessWidget {
       color: Colors.blueGrey,
       child: const Center(
         child: Text(
-          'Settings Page',
+          'Data Page',
           style: TextStyle(fontSize: 24, color: Colors.white),
         ),
       ),
